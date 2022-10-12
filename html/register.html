@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+   <meta name="description" content=" Registration template in html.">
+  <meta name="keywords" content="register page">
+  <meta name="author" content="Adewunmi Oladele">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>registration | Form </title>
+  <link rel="stylesheet" href="styles.css">
+<!-- 
+First name 
+Last name
+Phone number
+Email 
+Gender (select field)
+Date of birth (date selection option)
+Favorite color (color selector)
+Email and
+password
+Your section of the login page should include
+ -->
+</head>
+<body>
+
+<main>
+  <h1>Register</h1>
+  <p>Kindly fill in this form to register.</p>
+
+  <form>
+    <!-- class named "container" is assigned to div -->
+    <div class="container">
+     
+      <label for="firstname"><b>firstname</b></label>
+      <input
+        type="text"
+        placeholder="Enter First Name"
+        name="firstname"
+        id="firstname"
+        required
+      />
+
+      <label for="lastname"><b>Last Name</b></label>
+      <input
+        type="text"
+        placeholder="Enter Last Name"
+        name="lastname"
+        id="lastname"
+        required
+      />
+
+      <label for="Phone"><b>Phone Number</b></label>
+      <input
+        type="number"
+        placeholder="Enter Phone Number"
+        name="Phone"
+        id="Phone"
+        required
+      />
+
+      <label for="favc"><b>Favorite Color</b></label>
+      <input
+        type="text"
+        placeholder="Enter Favorite Color"
+        name="favc"
+        id="favc"
+        required
+      />
+
+      <label for="email"><b>Email</b></label>
+      <input
+        type="email"
+        placeholder="Enter Email"
+        name="email"
+        id="email"
+        required
+      />
+
+      <label for="dob"><b>Date Of Birth</b></label>
+      <input
+        type="date"
+        placeholder="Enter Date of Birth"
+        name="dob"
+        id="dob"
+        required
+      />
+
+      <label for="gender">
+        Gender: <input type="radio" name="gender" value="female">Female 
+        <input type="radio" name="gender" value="male">Male 
+        </label> <br>
+
+      <label for="pwd"><b>Password</b></label>
+      <input
+        type="password"
+        placeholder="Enter Password"
+        name="pwd"
+        id="pwd"
+        required
+      />
+
+      <label for="pwd-repeat"><b>Repeat Password</b></label>
+      <input
+        type="password"
+        placeholder="Repeat Password"
+        name="pwd-repeat"
+        id="pwd-repeat"
+        required
+      />
+
+      <button type="submit">Register</button>
+    </div>
+
+    <section>
+      <div>
+        <p>Already have an account? <a href="login.html">Log in</a>.</p>
+      </div>
+    </form>
+    </section>
+</main>
+</body>
+</html>
