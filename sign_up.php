@@ -17,6 +17,7 @@ Country -->
 
 </head>
 <body>
+
     <form method="POST" action="user_data.php">
         <label for="name">
         Full Name: <input type="text" name="name">
@@ -35,9 +36,12 @@ Country -->
         Country: <input type="text" name="country">
         </label> <br>
       
-        <button type="submit">Submit</button> 
+        <button type="submit" class="btn btn-primary" name="submit">Submit</button> 
     </form>
 
+
+
+   
 
 </body>
 </html>
