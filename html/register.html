@@ -9,18 +9,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>registration | Form </title>
   <link rel="stylesheet" href="styles.css">
-<!-- 
-First name 
-Last name
-Phone number
-Email 
-Gender (select field)
-Date of birth (date selection option)
-Favorite color (color selector)
-Email and
-password
-Your section of the login page should include
- -->
+
 </head>
 <body>
 
@@ -28,8 +17,7 @@ Your section of the login page should include
   <h1>Register</h1>
   <p>Kindly fill in this form to register.</p>
 
-  <form>
-    <!-- class named "container" is assigned to div -->
+  <form action="/html/success.html" target="_blank" >
     <div class="container">
      
       <label for="firstname"><b>firstname</b></label>
@@ -52,22 +40,21 @@ Your section of the login page should include
 
       <label for="Phone"><b>Phone Number</b></label>
       <input
-        type="number"
+        type="tel"
         placeholder="Enter Phone Number"
         name="Phone"
         id="Phone"
         required
       />
 
-      <label for="favc"><b>Favorite Color</b></label>
-      <input
-        type="text"
-        placeholder="Enter Favorite Color"
-        name="favc"
-        id="favc"
+      <label for="favcolor"><strong>Select Your Favorite Color:</strong> </label>
+      <input 
+        type="color" 
+        id="favcolor" 
+        name="favcolor" 
         required
       />
-
+      
       <label for="email"><b>Email</b></label>
       <input
         type="email"
@@ -86,10 +73,14 @@ Your section of the login page should include
         required
       />
 
-      <label for="gender">
-        Gender: <input type="radio" name="gender" value="female">Female 
-        <input type="radio" name="gender" value="male">Male 
-        </label> <br>
+        <label class="col-sm-12 " for="formGroupInput"><strong>Gender</strong></label>
+        <select name="gender" class="selectpicker form-control">
+          <option value="" disabled="" selected="">Select Gender</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="other">Other</option>
+      </select>
+        <br>
 
       <label for="pwd"><b>Password</b></label>
       <input

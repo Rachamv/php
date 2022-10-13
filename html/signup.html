@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content=" Registration template in html.">
+    <meta name="keywords" content="register page">
+    <meta name="author" content="Adewunmi Oladele">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
+    <Link rel="stylesheet" href="signup.css">
+    <title>register | Page </title>
+</head>
+
+<body>
+
+    <form action="/html/login.html" target="_blank" method="post" >
+
+        <div class="container container-table">
+            <div class="row vertical-center-row">
+                <div class="col-xs-12 col-sm-8 col-sm-offset-2 no-email-main-div">
+
+                    <hr>
+                    <div class="row">
+                        <p class="head-msg">Sign UP</p>
+                        <div class="col-xs-2 col-xs-offset-5 text-center column-div">
+
+                            <img alt="user_407qlgbwptp" src="/task/user_web-1598433228.svg" class="avatar">
+                        </div>
+                        <div class="col-xs-12 column-div">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label class="col-sm-12 " for="formGroupInput">First Name<sup style="color:red;">*</sup></label>
+                                    <input class="form-control typeahead" type="text" name="firstname" maxlength="50"
+                                    required="required"
+                                        placeholder="Enter Your Name">
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label class="col-sm-12 " for="formGroupInput">Last Name<sup style="color:red;">*</sup></label>
+                                    <input class="form-control typeahead" type="text" name="lastname" maxlength="50"
+                                    required="required"
+                                        placeholder="Enter Your Name">
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label class="col-sm-12 " for="formGroupInput"><b>Phone Number</b><sup style="color:red;">*</sup></label>
+                                    <input class="form-control typeahead" type="tel" name="Phone" autocomplete="off"
+                                    required="required"
+                                        id="formGroupInput" placeholder="Enter Your Phone Number">
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label class="col-sm-12 " for="formGroupInput">Date Of Birth<sup style="color:red;">*</sup></label>
+                                    <input class="form-control typeahead" type="date" name="dateofbirth" maxlength="50"
+                                    required="required"
+                                        placeholder="Enter Your Date Of Birth">
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label class="col-sm-12 " for="formGroupInput">Gender<sup style="color:red;">*</sup></label>
+                                    
+                                    <select name="gender" 
+                                    required="required"
+                                    class="selectpicker form-control">
+                                        <option value="" disabled selected>Select Gender</option>
+                                        <option value="male">Male</option>
+                                        <option value="female">Female</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label class="col-sm-12 " for="favcolor">Select Your Favorite Color:<sup style="color:red;">*</sup></label>
+                                    <input type="color"
+                                    required="required"
+                                    id="favcolor" name="favcolor">
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <div class="form-group" style="margin-right:0px !important;">
+                                    <label class="col-sm-12 " for="formGroupInput">E-mail<sup style="color:red;">*</sup>
+                                    </label>
+                                    <input class="form-control" type="email" name="email" required="required"
+                                        id="formGroupInput" placeholder="Enter Your e-mail">
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <div class="form-group" style="margin-right:0px !important;">
+                                    <label class="col-sm-12 " for="formGroupInput">Password<sup
+                                            style="color:red;">*</sup>
+                                    </label>
+                                    <input class="form-control" type="password" name="Password" required="required"
+                                        id="formGroupInput" aria-hidden="true" placeholder="Enter Your Password">
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <div class="form-group" style="margin-right:0px !important;">
+                                    <label class="col-sm-12 " for="formGroupInput">Repeat Password<sup
+                                            style="color:red;">*</sup>
+                                    </label>
+                                    <input class="form-control" type="password" name="re-password"
+                                        required="required" id="formGroupInput" aria-hidden="true" placeholder="Repeat Your Password">
+                                </div>
+                            </div>
+
+                            <div class="col-sm-12">
+                                <button type="submit" class="btn btn-success accept-btn pull-right">Submit</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>

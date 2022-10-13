@@ -1,0 +1,72 @@
+body {
+    background: #1488EA;
+  }
+     html, body, .container-table {
+        height: 100%;
+        color: #999;
+        padding-bottom: 20px;
+        padding-top: 8px;
+    }
+    body{
+        background-color: rgba(50,161,118,0.8);
+        background-size: 20%;
+    }
+    .container-table {
+        display: table;
+    }
+    .vertical-center-row {
+        display: table-cell;
+        vertical-align: middle;
+    }
+    .no-email-main-div{
+        background: #fff;
+        border: 2px solid #a6e3bc;
+        box-shadow: 0 0 5px #888;
+        border-radius: 4px;
+        padding: 25px;
+    } 
+    .avatar{
+        width: 70px;
+        border-radius: 50%;
+        border: 4px solid #5ab390;
+    }
+  
+    .column-div{
+        padding: 10px 0px;
+    }
+   
+    hr{
+        margin: 0 30%;
+        border-top: 2px solid #4cb96b;
+    }
+    .btn-success{
+        background-color: #32a176;
+    }
+    .response{
+        color: #b92b27;
+        font-weight: bold;
+        font-size: 16px;
+    }
+    
+    p.head-msg{
+        text-align: center;
+        font-size: 18px;
+        margin-top: 15px;
+        font-weight: bold;
+        color: #404040;
+    }
+  
+    .hide {
+        display: none;
+    }
+    @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+    } 
+      #message {
+        margin-bottom: -.9em;
+        color: #020202;
+        letter-spacing: 1px;
+      }
+      
+      
